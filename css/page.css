@@ -1,9 +1,13 @@
-*{padding: 0;margin: 0;}
+* {
+  padding: 0;
+  margin: 0;
+}
+
 /********* 通用头部 *********/
-.header{
+.header {
   border-bottom: 1px solid #676769;
   background-color: #000;
-  box-sizing:border-box;
+  box-sizing: border-box;
   height: 100px;
   width: 100%;
   position: absolute;
@@ -14,22 +18,26 @@
   /*justify-content: center;*/
   align-items: center;
 }
-.offsettop{
+
+.offsettop {
   height: 100px;
 }
-.header .title{
+
+.header .title {
   font-size: 28px;
   color: #fff;
 }
-.header .back{
+
+.header .back {
   width: 72px;
   height: 100px;
-  background:url(../images/icon-back.png) no-repeat center center;
+  background: url(../images/icon-back.png) no-repeat center center;
 }
+
 /********* 通用头部 *********/
 
 /********* 登录page1 start *********/
-.smile-page1 .page-inner{
+.smile-page1 .page-inner {
   background: url(../images/list1.png) center center no-repeat;
   display: flex;
   flex-wrap: wrap;
@@ -37,7 +45,7 @@
   align-content: center;
 }
 
-.smile-page1 .page-inner .content{
+.smile-page1 .page-inner .content {
   width: 496px;
   height: 900px;
   color: white;
@@ -50,7 +58,7 @@
   align-content: space-around;
 }
 
-.smile-page1 .page-inner .content .portrait{
+.smile-page1 .page-inner .content .portrait {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -59,31 +67,31 @@
   align-content: center;
 }
 
-.smile-page1 .page-inner .content .portrait .title{
+.smile-page1 .page-inner .content .portrait .title {
   font-weight: bold;
   font-size: 30px;
   margin-bottom: 54px;
 }
 
-.smile-page1 .page-inner .content .portrait .img{
+.smile-page1 .page-inner .content .portrait .img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   background: url(../images/list2.png) center center no-repeat;
 }
 
-.smile-page1 .page-inner .content .portrait .upload{
+.smile-page1 .page-inner .content .portrait .upload {
   font-size: 22px;
   margin-top: 24px;
 }
 
-.smile-page1 .page-inner .content .inputBox{
+.smile-page1 .page-inner .content .inputBox {
   width: 100%;
   color: white;
   font-size: 26px;
 }
 
-.smile-page1 .page-inner .content .inputBox>div{
+.smile-page1 .page-inner .content .inputBox>div {
   margin-bottom: 54px;
   box-sizing: border-box;
   border-bottom: 1px solid white;
@@ -94,12 +102,12 @@
   height: 49px;
 }
 
-.smile-page1 .page-inner .content .inputBox div span{
+.smile-page1 .page-inner .content .inputBox div span {
   /* border-right: 1px solid white; */
   position: relative;
 }
 
-.smile-page1 .page-inner .content .inputBox div span:before{
+.smile-page1 .page-inner .content .inputBox div span:before {
   content: '';
   position: absolute;
   bottom: 8px;
@@ -109,7 +117,7 @@
   background-color: white;
 }
 
-.smile-page1 .page-inner .content .inputBox input{
+.smile-page1 .page-inner .content .inputBox input {
   width: 372px;
   font-size: 26px;
   color: white;
@@ -117,11 +125,11 @@
   background: none;
 }
 
-.smile-page1 .page-inner .content .inputBox input.authCode{
+.smile-page1 .page-inner .content .inputBox input.authCode {
   width: 196px;
 }
 
-.smile-page1 .page-inner .content .inputBox .getCode{
+.smile-page1 .page-inner .content .inputBox .getCode {
   width: 120px;
   height: 36px;
   line-height: 36px;
@@ -129,7 +137,7 @@
   background: #07316a;
 }
 
-.smile-page1 .page-inner .content .signInBut{
+.smile-page1 .page-inner .content .signInBut {
   width: 336px;
   height: 54px;
   line-height: 54px;
@@ -140,25 +148,26 @@
   color: white;
   background: rgba(0, 0, 0, 0.5);
 }
+
 /********* 登录page1 end *********/
 
 
 /********* 个人中心page2 start *********/
-.smile-page2 .page-inner{
+.smile-page2 .page-inner {
   background: black;
 }
-.smile-page2 .top{
+
+.smile-page2 .top {
   height: 41%;
   background: url(../images/list3.png) top center no-repeat;
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
   align-content: flex-end;
 }
 
-.smile-page2 .page-inner .top .img{
+.smile-page2 .page-inner .top .img {
   width: 200px;
   height: 200px;
   margin-bottom: 81px;
@@ -166,7 +175,7 @@
   background: url(../images/list2.png) center center no-repeat;
 }
 
-.smile-page2 .page-inner .top .signIn{
+.smile-page2 .page-inner .top .signIn {
   box-sizing: border-box;
   padding: 0 49px;
   margin-bottom: 49px;
@@ -179,35 +188,35 @@
   color: white;
 }
 
-.smile-page2 .bottom{
+.smile-page2 .bottom {
   height: 59%;
   background: url(../images/list4.png) top center no-repeat;
 }
 
-.smile-page2 .bottom .tab{
+.smile-page2 .bottom .tab {
   width: 100%;
   height: 280px;
   position: relative;
 }
 
-.smile-page2 .bottom .tab1{
+.smile-page2 .bottom .tab1 {
   position: absolute;
   top: 26px;
   left: 64px;
 }
 
-.smile-page2 .bottom .tab2{
+.smile-page2 .bottom .tab2 {
   position: absolute;
   top: 26px;
   right: 64px;
 }
 
-.smile-page2 .bottom .title{
+.smile-page2 .bottom .title {
   text-align: center;
   margin: 13px auto;
 }
 
-.smile-page2 .bottom .gift{
+.smile-page2 .bottom .gift {
   box-sizing: border-box;
   padding: 0 24px;
   display: flex;
@@ -216,7 +225,7 @@
   justify-content: space-around;
 }
 
-.smile-page2 .bottom .gift .list{
+.smile-page2 .bottom .gift .list {
   width: 210px;
   height: 372px;
   background: #0c1329;
@@ -230,15 +239,15 @@
   align-content: space-between;
 }
 
-.smile-page2 .bottom .gift .list img{
+.smile-page2 .bottom .gift .list img {
   width: 100%;
 }
 
-.smile-page2 .bottom .gift .list .price{
+.smile-page2 .bottom .gift .list .price {
   font-size: 22px;
 }
 
-.smile-page2 .bottom .gift .list .exchange{
+.smile-page2 .bottom .gift .list .exchange {
   width: 100%;
   height: 72px;
   background: black;
@@ -249,7 +258,7 @@
   justify-content: center;
 }
 
-.smile-page2 .bottom .gift .list .exchange .but{
+.smile-page2 .bottom .gift .list .exchange .but {
   width: 169px;
   height: 45px;
   line-height: 45px;
@@ -260,28 +269,29 @@
 /********* 个人中心page2 end *********/
 
 /********* 修改信息page3 start *********/
-.smile-page3 .page-inner{
+.smile-page3 .page-inner {
   background: black;
   font-size: 24px;
   color: white;
 }
-.smile-page3 .top{
+
+.smile-page3 .top {
   height: 41%;
   background: url(../images/list9.png) center center no-repeat;
 }
 
-.smile-page3 .bottom{
+.smile-page3 .bottom {
   height: 59%;
   background: url(../images/list10.png) top center no-repeat;
 }
 
-.smile-page3 .bottom .inputBox{
+.smile-page3 .bottom .inputBox {
   width: 100%;
   box-sizing: border-box;
   padding: 39px 39px 0;
 }
 
-.smile-page3 .bottom .inputBox input{
+.smile-page3 .bottom .inputBox input {
   border: none;
   color: white;
   font-size: 24px;
@@ -291,7 +301,7 @@
   background: none;
 }
 
-.smile-page3 .bottom .inputBox>div{
+.smile-page3 .bottom .inputBox>div {
   height: 72px;
   box-sizing: border-box;
   padding: 0 36px;
@@ -303,13 +313,13 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.24);
 }
 
-.smile-page3 .bottom .inputBox>div>div{
+.smile-page3 .bottom .inputBox>div>div {
   box-sizing: border-box;
   padding-right: 39px;
   background: url(../images/right.png) right center no-repeat;
 }
 
-.smile-page3 .bottom .inputBox .img .headImg{
+.smile-page3 .bottom .inputBox .img .headImg {
   display: inline-block;
   width: 69px;
   height: 69px;
@@ -317,7 +327,7 @@
   background: url(../images/list2.png) center center no-repeat;
 }
 
-.smile-page3 .bottom .saveBut{
+.smile-page3 .bottom .saveBut {
   width: 332px;
   height: 72px;
   line-height: 72px;
@@ -334,7 +344,7 @@
 /********* 修改信息page3 end *********/
 
 /********* 积分明细page4 start *********/
-.smile-page4 .page-inner{
+.smile-page4 .page-inner {
   background: black url(../images/list11.png) center center no-repeat;
   font-size: 24px;
   color: white;
@@ -342,7 +352,7 @@
   padding-top: 136px;
 }
 
-.smile-page4 .page-inner .tabBox{
+.smile-page4 .page-inner .tabBox {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -350,32 +360,32 @@
 }
 
 .smile-page4 .page-inner .tabContent1,
-.smile-page4 .page-inner .tabContent2{
+.smile-page4 .page-inner .tabContent2 {
   margin-top: 72px;
   text-align: center;
 }
 
-.smile-page4 .page-inner .tabContent1{
+.smile-page4 .page-inner .tabContent1 {
   width: 620px;
   margin: 72px auto 0;
 }
 
-.smile-page4 .page-inner .tabContent1 .title{
+.smile-page4 .page-inner .tabContent1 .title {
   margin-bottom: 49px;
 }
 
-.smile-page4 .page-inner .tabContent1 .list{
+.smile-page4 .page-inner .tabContent1 .list {
   margin-top: 13px;
 }
 
-.smile-page4 .page-inner .tabContent1 .list .date{
+.smile-page4 .page-inner .tabContent1 .list .date {
   text-align: left;
   font-size: 28px;
   box-sizing: border-box;
   padding: 0 9px;
 }
 
-.smile-page4 .page-inner .tabContent1 .list .content{
+.smile-page4 .page-inner .tabContent1 .list .content {
   font-size: 24px;
   box-sizing: border-box;
   padding: 0 18px;
@@ -385,22 +395,25 @@
   justify-content: space-between;
 }
 
-.smile-page4 .page-inner .tabContent1 .list>div{
+.smile-page4 .page-inner .tabContent1 .list>div {
   height: 72px;
   line-height: 72px;
   box-sizing: border-box;
   border-bottom: 1px solid rgba(255, 255, 255, 0.24);
 }
-.smile-page4 .page-inner #integralList{
+
+.smile-page4 .page-inner #integralList {
   height: 810px;
 }
-.smile-page4 .page-inner #list-home{
+
+.smile-page4 .page-inner #list-home {
   height: auto;
 }
+
 /********* 积分明细page4 end *********/
 
 /********* 兑换中心page5 end *********/
-.smile-page5 .page-inner{
+.smile-page5 .page-inner {
   background: black url(../images/list15.png) center center no-repeat;
   font-size: 24px;
   color: white;
@@ -408,35 +421,39 @@
   padding-top: 136px;
 }
 
-.smile-page5 .changeBut{
+.smile-page5 .changeBut {
   position: absolute;
   top: 124px;
   right: 36px;
   z-index: 9;
 }
 
-.smile-page5 .page-inner .title{
+.smile-page5 .page-inner .title {
   text-align: center;
   box-sizing: border-box;
   padding: 72px 0 54px;
 }
 
-#productList,#recordList{
+#productList,
+#recordList {
   height: calc(100% - 159px);
 }
-#productListContent,#recordListContent{
+
+#productListContent,
+#recordListContent {
   height: auto;
 }
-.smile-page5 .page-inner .content{
+
+.smile-page5 .page-inner .content {
   width: 100%;
   height: 100%;
 }
 
-.smile-page5 .page-inner .content2{
+.smile-page5 .page-inner .content2 {
   display: none;
 }
 
-.smile-page5 .page-inner .content1 .listBox{
+.smile-page5 .page-inner .content1 .listBox {
   display: flex;
   box-sizing: border-box;
   padding: 0 64px;
@@ -445,32 +462,32 @@
   justify-content: space-between;
 }
 
-.smile-page5 .page-inner .content1 .list{
+.smile-page5 .page-inner .content1 .list {
   margin-bottom: 36px;
 }
 
-.smile-page5 .page-inner .content1 .list .img{
+.smile-page5 .page-inner .content1 .list .img {
   width: 290px;
   height: 320px;
   background: url(../images/list_1.png) center center no-repeat;
   background-size: 100% 100%;
 }
 
-.smile-page5 .page-inner .content1 .list .text{
+.smile-page5 .page-inner .content1 .list .text {
   width: 290px;
   height: 90px;
   box-sizing: border-box;
   padding: 9px 0;
-  background: linear-gradient(to right, #0e3366,#061a47);
+  background: linear-gradient(to right, #0e3366, #061a47);
 }
 
-.smile-page5 .page-inner .content1 .list .text>div{
+.smile-page5 .page-inner .content1 .list .text>div {
   text-align: center;
   height: 36px;
   line-height: 36px;
 }
 
-.smile-page5 .page-inner .content2 .listBox{
+.smile-page5 .page-inner .content2 .listBox {
   display: flex;
   box-sizing: border-box;
   padding: 0 28px;
@@ -479,25 +496,191 @@
   justify-content: center;
 }
 
-.smile-page5 .page-inner .content2 .list{
+.smile-page5 .page-inner .content2 .list {
   width: 690px;
   height: 272px;
   background: #07215e;
+  box-sizing: border-box;
   margin-bottom: 39px;
+  padding: 16px 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+}
+
+.smile-page5 .page-inner .content2 .top {
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  border-bottom: 1px solid white;
+  padding: 0 6px;
+  /* background: red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.smile-page5 .page-inner .content2 .top .right {
+  text-align: right;
+}
+
+.smile-page5 .page-inner .content2 .bottom {
+  width: 100%;
+  height: 168px;
+  box-sizing: border-box;
+  /* border-bottom: 1px solid white; */
+  /* padding: 0 6px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.smile-page5 .page-inner .content2 .bottom .left {
+  width: 168px;
+  height: 168px;
+  background: white;
+  overflow: hidden;
+}
+
+.smile-page5 .page-inner .content2 .bottom .right {
+  width: calc(100% - 186px);
+  height: 100%;
+  font-size: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.smile-page5 .page-inner .content2 .bottom .right .name {
+  width: 100%;
+}
+
+.smile-page5 .page-inner .content2 .bottom .right .express {
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.smile-page5 .page-inner .content2 .bottom .right .express .expressname {
+  width: 100%;
+}
+
+.smile-page5 .page-inner .content2 .bottom .right .express .expressNum {
+  width: calc(100% - 139px);
+}
+
+.smile-page5 .page-inner .content2 .bottom .right .express .copy {
+  width: 139px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  background: #0a2b78;
 }
 
 /********* 兑换中心page5 end *********/
 
+/********* 答题页面psge6 end *********/
+.smile-page6 .page-inner {
+  position: relative;
+  background: url(../images/list19.png) center center no-repeat;
+  font-size: 24px;
+  color: white;
+  box-sizing: border-box;
+  padding-top: 136px;
+}
 
+.smile-page6 .page-inner .content {
+  margin: 0 auto;
+  width: 633px;
+  height: 954px;
+  background: url(../images/list20.png) 0 0 no-repeat;
+  position: relative;
+}
 
+.smile-page6 .page-inner .content .botImg {
+  position: absolute;
+  left: -59px;
+  bottom: -36%;
+}
 
+.smile-page6 .page-inner .content .questionBox {
+  display: none;
+}
 
+.smile-page6 .page-inner .content .score {
+  display: block;
+  position: absolute;
+  width: 197px;
+  height: 172px;
+  /* top: 240px;
+  left: 50%;
+  margin-left: -99px; */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
 
+.smile-page6 .page-inner .content .question {
+  width: 540px;
+  height: 240px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  border-bottom: 1px solid white;
+}
 
+.smile-page6 .page-inner .content .question p {
+  /* height: 240px; */
+  text-align: center;
+  margin-bottom: 69px;
+}
 
+.smile-page6 .page-inner .content .answer {
+  height: 493px;
+  box-sizing: border-box;
+  padding-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
+}
 
+.smile-page6 .page-inner .content .answer .list {
+  /* position: relative; */
+  width: 100%;
+  background: url(../images/list22.png) center center no-repeat;
+  background-size: auto 100% !important;
+}
 
+.smile-page6 .page-inner .content .answer .list .text {
+  width: 320px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px 0;
+}
 
+.smile-page6 .page-inner .content .answer .affirm {
+  width: 330px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid white;
+}
 
-
-
+/********* 答题页面psge6 end *********/

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <span id="codeNum">FTYHDSDW</span>
+  <span class=" code-btn" id="codeBtn" data-clipboard-target="#input">复制</span>
+
+  <script type="text/javascript">
+    function copyArticle(event) {
+      const range = document.createRange();
+      range.selectNode(document.getElementById('codeNum'));
+
+      const selection = window.getSelection();
+      if (selection.rangeCount > 0) selection.removeAllRanges();
+      selection.addRange(range);
+      document.execCommand('copy');
+      alert("复制成功！");
+    }
+    document.getElementById('codeBtn').addEventListener('click', copyArticle, false);
+  </script>
+</body>
+
+</html>
