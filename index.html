@@ -19,7 +19,7 @@
     </div>
   </div>
   <div class="wrap page-wrap">
-    <!--------- 登录page1 start --------->
+    <!--------- 登录页面page1 start --------->
     <div class="page smile-page1" data-lock-next="true" data-lock-prev="true">
       <div class="header">
         <div class="back"></div>
@@ -33,11 +33,11 @@
             <div class="upload">上传头像</div>
           </div>
           <div class="inputBox">
-            <div><span>昵&nbsp;&nbsp;&nbsp;称</span><input type="text"></div>
-            <div><span>手机号</span><input type="text"></div>
+            <div><span>昵&nbsp;&nbsp;&nbsp;称</span><input type="text" class="nickName"></div>
+            <div><span>手机号</span><input type="number" class="phoneNum"></div>
             <div>
               <span>验证码</span>
-              <input type="text" class="authCode">
+              <input type="number" class="authCode">
               <div class="getCode">获取验证码</div>
             </div>
           </div>
@@ -45,7 +45,7 @@
         </div>
       </div>
     </div>
-    <!--------- 登录page1 end --------->
+    <!--------- 登录页面page1 end --------->
 
     <!--------- 个人中心page2 start --------->
     <div class="page smile-page2" data-lock-next="true" data-lock-prev="true">
@@ -77,7 +77,12 @@
           </div>
           <div class="gift">
             <div class="list">
-              <img src="./images/list_1.png" alt="" srcset="">
+              <div class="proImg">
+                <img
+                  src="http://honda-china.weiyihui.cn/static/uploads/picture/20200415/79efd356e44e949485e7dc1c66d32a78.jpg"
+                  alt="" srcset="">
+              </div>
+
               <div>赛事专属运动潮流卫衣</div>
               <div class="price">1789 积分</div>
               <div class="exchange">
@@ -85,7 +90,9 @@
               </div>
             </div>
             <div class="list">
-              <img src="./images/list_1.png" alt="" srcset="">
+              <div class="proImg">
+                <img src="./images/list_1.png" alt="" srcset="">
+              </div>
               <div>赛事专属运动潮流卫衣</div>
               <div class="price">1789 积分</div>
               <div class="exchange">
@@ -93,7 +100,9 @@
               </div>
             </div>
             <div class="list">
-              <img src="./images/list_1.png" alt="" srcset="">
+              <div class="proImg">
+                <img src="./images/list_1.png" alt="" srcset="">
+              </div>
               <div>赛事专属运动潮流卫衣</div>
               <div class="price">1789 积分</div>
               <div class="exchange">
@@ -133,7 +142,7 @@
             <div class="phone">
               <span>手机号</span>
               <div>
-                <input type="text" value="15935465875">
+                <input type="number" value="15935465875">
               </div>
             </div>
           </div>
@@ -450,6 +459,22 @@
 
     </div>
   </div>
+  <!-- 页面弹框列表 start -->
+  <div class="el-model">
+    <!-- 弹框1 start -->
+    <div class="el-contaoner el-contaoner1 zoomIn">
+      <div class="el-content">
+        <img src="./images/list25.png" alt="" srcset="">
+      </div>
+      <!-- <div class="el-footer clearfix">
+        <div class="el-button el-success">
+          <img src="./images/list8.png" alt="" srcset="">
+        </div>
+      </div> -->
+    </div>
+    <!-- 弹框1 end -->
+  </div>
+  <!-- 页面弹框列表 end -->
   <script src="js/jquery-1.7.2.min.js"></script>
   <script src="js/swiper.min.js"></script>
   <script src="js/PageSlider.js"></script>

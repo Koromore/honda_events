@@ -239,6 +239,12 @@
   align-content: space-between;
 }
 
+.smile-page2 .bottom .gift .list .proImg{
+  width: 210px;
+  height: 220px;
+  overflow: hidden;
+}
+
 .smile-page2 .bottom .gift .list img {
   width: 100%;
 }
@@ -587,6 +593,19 @@
 }
 
 /********* 兑换中心page5 end *********/
+
+/********* 复制成功弹窗1 start *********/
+.el-model .el-contaoner1{
+  width: auto;
+  border: none;
+  background: none;
+}
+.el-model .el-contaoner1 .el-content{
+  width: auto;
+  padding: 0;
+  background: none;
+}
+/********* 复制成功弹窗1 end *********/
 
 /********* 答题页面psge6 end *********/
 .smile-page6 .page-inner {
